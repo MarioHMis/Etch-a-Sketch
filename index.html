@@ -27,11 +27,16 @@
       <h6>Select the size</h6>
       <button id="popup" class="btn btn-outline-primary">Select</button>
     </div>
+    <p id="message"></p>
     <div class="board"></div>
     <div class="footer">
-      <button class="btn btn-dark">Black</button>
-      <button class="btn btn-outline-info">Ramdon</button>
-      <button class="btn btn-outline-danger">Clear</button>
+      <button class="btn btn-dark" onclick="setColor('black')">Black</button>
+      <button class="btn btn-outline-info" onclick="setColor('random')">
+        Ramdon
+      </button>
+      <button class="btn btn-outline-danger" onclick="clearBoard()">
+        Clear
+      </button>
     </div>
   </body>
 </html>
