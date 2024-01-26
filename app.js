@@ -68,6 +68,6 @@ function setColor(colorChoice) {
 }
 
 function clearBoard() {
-  let divs = document.querySelectorAll('div');
-  divs.forEach((div) => (div.style.backgroundColor = 'white'));
+  let divBoard = document.querySelectorAll('.board div');
+  divBoard.forEach((div) => (div.style.backgroundColor = 'white'));
 }
